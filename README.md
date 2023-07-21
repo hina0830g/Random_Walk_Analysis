@@ -15,8 +15,11 @@ This was a data analysis-heavy experimental physics project I did during my last
 
 <h2 align="center"> Code </h2>
 
+- [**particle_tracker.ipynb**](https://github.com/hina0830g/Random_Walk_Analysis/blob/main/particle_tracker.ipynb)
+Reads the videos of the particles taken with IC capture and tracks the locations. The program allows you to specify the initial frame number and the duration to perform tracking on. It pickles and saves the coordinates of the tracked particles to be analyzed using my analysis code Brownian_Analysis.ipynb.
+
 - [**Brownian_Analysis.ipynb**](https://github.com/hina0830g/Random_Walk_Analysis/blob/main/Brownian_Analysis.ipynb)
-General analysis of the tracked coordinates Reads arrays of coordinates and calculates the distances the particle traveled + mean squared displacement. This code also visualizes the path and the movement of the particle in the liquid and runs linear regression on mean squared displacement (function of time, in seconds). 
+General analysis of the tracked coordinates. Reads arrays of coordinates and calculates the distances the particle traveled + mean squared displacement. This code also visualizes the path and the movement of the particle in the liquid and runs linear regression on mean squared displacement (function of time, in seconds). 
 
 
 <h2 align="center"> Results / Conclusion </h2>
